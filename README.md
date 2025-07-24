@@ -2,29 +2,41 @@ Key Features of this NLP Chatbot:
 
 1.	Dual NLP Engine Support:
 •	Primary processing with spaCy (if available) for advanced NLP features
+
 •	Fallback to NLTK when spaCy isn't available
 
 2.	Comprehensive Intent Recognition:
 •	Pattern matching for basic queries
+
 •	spaCy NER for entity detection
+
 •	NLTK POS tagging as fallback
+
 •	Combined scoring system for intent matching
 
 3.	Knowledge Domains:
 •	Greetings and farewells
+
 •	Time and date queries
+
 •	Mathematical calculations
+
 •	Capabilities explanation
+
 •	Unknown query handling
 
 4.	Conversation Features:
 •	Context tracking (last intent, entities)
+
 •	Text preprocessing (lemmatization, stopword removal)
+
 •	Dynamic response generation
 
 5.	Robust Math Processing:
 •	Handles basic arithmetic operations
+
 •	Error handling for invalid expressions
+
 •	Clear response formatting
 
 Installation Instructions:
