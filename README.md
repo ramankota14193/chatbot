@@ -50,14 +50,24 @@ The chatbot is designed to be extensible - you can easily add new intents and re
 
 sample conversation:
 Chatbot: Hello! I'm your NLP-powered assistant. Type 'quit' to exit.
+
 You: Hello there
+
 Chatbot: Hi there! What would you like to know?
+
 You: what time is it?
+
 Chatbot: The current time is 14:30.
+
 You: calculate 15 * 3
+
 Chatbot: The result of 15.0 * 3.0 is 45.0.
+
 You: what's the weather
+
 Chatbot: I'm not sure I understand. Could you rephrase that?
+
 You: goodbye
+
 Chatbot: See you later!
 
